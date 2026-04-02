@@ -813,11 +813,6 @@ button.green{background:#059669}button.red{background:#dc2626}button.gray{backgr
 </body>
 </html>
 """
-
+init_db()
 if __name__ == "__main__":
-    init_db()
-    print("Dastur ishga tushdi: http://127.0.0.1:5001")
-    print("Litsenziya sahifasi: http://127.0.0.1:5001/license")
-    print("Admin panel: http://127.0.0.1:5001/admin/login")
-    if __name__ == "__main__":
-    app.run()
+      app.run()

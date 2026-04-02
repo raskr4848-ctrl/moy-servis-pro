@@ -1,0 +1,1 @@
+web: gunicorn moy_servis_app:app
